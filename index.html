@@ -19,14 +19,6 @@
   <!-- Zone de sortie -->
   <pre id="output" class="mt-6 w-full max-w-3xl bg-white p-3 border rounded-lg whitespace-pre-wrap text-gray-800"></pre>
 
-<script>
-// Palier 0 : on renvoie simplement le texte saisi tel quel.
-// Le code sera étendu aux regex puis à l'appel LLM dans les prochains paliers.
-
-document.getElementById("scan").addEventListener("click", () => {
-  const text = document.getElementById("input").value;
-  document.getElementById("output").textContent = text;
-});
-</script>
+<script src="main.js"></script>
 </body>
 </html>
