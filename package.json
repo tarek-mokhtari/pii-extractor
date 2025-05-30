@@ -1,0 +1,24 @@
+{
+  "name": "pii-extractor",
+  "version": "1.0.0",
+  "description": "Détecteur de données personnelles (emails, numéros de téléphone, etc.) dans un texte.",
+  "main": "main.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarek-mokhtari/pii-extractor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tarek-mokhtari/pii-extractor/issues"
+  },
+  "homepage": "https://github.com/tarek-mokhtari/pii-extractor#readme",
+  "devDependencies": {
+    "vitest": "^3.1.4"
+  }
+}
