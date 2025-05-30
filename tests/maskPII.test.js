@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { maskPII } from './maskPII.js';
+import { maskPII } from '../src/maskPII.js';
 
 describe('maskPII', () => {
   it('mask e-mail', () => {
