@@ -14,4 +14,8 @@ describe('maskPII', () => {
   it('mask date', () => {
     expect(maskPII('Rdv 12/05/2025')).toMatch('[date protégée]');
   });
+  it('mask date textuelle', () => {
+    expect(maskPII('Rdv le 12 janvier')).toMatch('[date protégée]');
+    expect(maskPII('Rdv le 12 janvier 2025')).toMatch('[date protégée]');
+  });
 }); 
